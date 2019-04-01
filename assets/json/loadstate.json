@@ -1,0 +1,610 @@
+{
+    "India":{
+                "STATE" : "India",
+                "DATA_FILE_LOCATION" : "data/up.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 2.35
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 2.75
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.140
+                                 }
+                   },
+    "Uttar Pradesh":{
+                "STATE" : "Uttar Pradesh",
+                "DATA_FILE_LOCATION" : "data/up.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 2.35
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 2.75
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.140
+                                 }
+               },
+    "Bihar":  {
+                "STATE" : "Bihar",
+                "DATA_FILE_LOCATION" : "data/bihar.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 3.4
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 3.35
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.5
+                                 }
+             },
+   
+     "Haryana":{
+                "STATE" : "Haryana",
+                "DATA_FILE_LOCATION" : "data/har.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4.5,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 5.7,
+                                    "m2" : 1.3
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+             },
+   
+     "Himachal Pradesh":{
+                        "STATE" : "Himachal Pradesh",
+                        "DATA_FILE_LOCATION" : "data/hp.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 4.5,
+                                            "m2" : 2.27
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 6.1,
+                                            "m2" : 1.31
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 7,
+                                            "m2" : 1.140
+                                         }
+                         },
+   
+     "Manipur":  {
+                    "STATE" : "Manipur",
+                    "DATA_FILE_LOCATION" : "data/mn.csv",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 5.55,
+                                        "m2" : 2.27
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 2.3,
+                                        "m2" : 2.7
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 7,
+                                        "m2" : 1.140
+                                     }
+                 },
+   
+     "Karnataka":{
+                    "STATE" : "Karnataka",
+                    "DATA_FILE_LOCATION" : "data/kar.csv",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 2.5,
+                                        "m2" : 2.21
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 1,
+                                        "m2" : 2.41
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 4,
+                                        "m2" : 1.140
+                                     }
+                 },
+    "Andhra Pradesh":{
+                    "STATE" : "Andhra Pradesh",
+                    "DATA_FILE_LOCATION" : "",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 2.6,
+                                        "m2" : 2.21
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 1,
+                                        "m2" : 2.56
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 4,
+                                        "m2" : 1.110
+                                     }
+                 },
+    "Telangana":{
+                    "STATE" : "Telangana",
+                    "DATA_FILE_LOCATION" : "",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 2.6,
+                                        "m2" : 2.21
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 1,
+                                        "m2" : 2.56
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 4,
+                                        "m2" : 1.110
+                                     }
+                 },
+   
+     "Tamil Nadu":  {
+                        "STATE" : "Tamil Nadu",
+                        "DATA_FILE_LOCATION" : "data/tn.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 3,
+                                            "m2" : 2.27
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 1.5,
+                                            "m2" : 1.38
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 4.7,
+                                            "m2" : 1.140
+                                         }
+                     },
+   
+     "Gujarat": {
+                    "STATE" : "Gujarat",
+                    "DATA_FILE_LOCATION" : "data/guj.csv",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 2.5,
+                                        "m2" : 2.34
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 1.5,
+                                        "m2" : 2.6
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 4.5,
+                                        "m2" : 1.140
+                                     }
+                 },
+   
+     "Chhattisgarh":{
+                    "STATE" : "Chhattisgarh",
+                    "DATA_FILE_LOCATION" : "data/chattis.csv",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 3,
+                                        "m2" : 2.27
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 1.25,
+                                        "m2" : 2.87
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 4.5,
+                                        "m2" : 1.140
+                                     }
+                 },
+    
+     "Assam":{
+                "STATE" : "Assam",
+                "DATA_FILE_LOCATION" : "data/as.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2,
+                                    "m2" : 2.49
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 5.2,
+                                    "m2" : 1.140
+                                 }
+             },
+   
+     "Kerala":{
+                    "STATE" : "Kerala",
+                    "DATA_FILE_LOCATION" : "data/kl.csv",
+                    "GEOM_WIDTH_R" : {
+                                        "m1" : 3.5,
+                                        "m2" : 2.24
+                                     },
+                    "GEOM_HEIGHT_R" : {
+                                        "m1" : 0.9,
+                                        "m2" : 2.57
+                                      },
+                    "GEOM_SCALE_R" : {
+                                        "m1" : 5.5,
+                                        "m2" : 1.140
+                                     }
+                 },
+   
+     "Maharashtra":{
+                        "STATE" : "Maharashtra",
+                        "DATA_FILE_LOCATION" : "data/mh.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 2.5,
+                                            "m2" : 2.23
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 1.1,
+                                            "m2" : 2.67
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 4,
+                                            "m2" : 1.140
+                                         }
+                     },
+    
+     "Meghalaya":  {
+                        "STATE" : "Meghalaya",
+                        "DATA_FILE_LOCATION" : "data/ml.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 4,
+                                            "m2" : 2.24
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 2,
+                                            "m2" : 2.31
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 5.2,
+                                            "m2" : 1.140
+                                         }
+                     },
+  
+     "West Bengal": {
+                        "STATE" : "West Bengal",
+                        "DATA_FILE_LOCATION" : "data/wb.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 4,
+                                            "m2" : 2.11
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 2,
+                                            "m2" : 2.313
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 5.1,
+                                            "m2" : 1.140
+                                         }
+                     },
+   
+     "Madhya Pradesh":{
+                        "STATE" : "Madhya Pradesh",
+                        "DATA_FILE_LOCATION" : "data/mp.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 2.5,
+                                            "m2" : 2.27
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 1.5,
+                                            "m2" : 2.47
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 4,
+                                            "m2" : 1.140
+                                         }
+                     },
+   
+     "Odisha":      { 
+                        "STATE" : "Odisha",
+                        "DATA_FILE_LOCATION" : "data/odisha.csv",
+                        "GEOM_WIDTH_R" : {
+                                            "m1" : 3.1,
+                                            "m2" : 2.27
+                                         },
+                        "GEOM_HEIGHT_R" : {
+                                            "m1" : 1.5,
+                                            "m2" : 2.38
+                                          },
+                        "GEOM_SCALE_R" : {
+                                            "m1" : 4.5,
+                                            "m2" : 1.140
+                                         }
+                     },
+   
+     "Rajasthan":{
+                "STATE" : "Rajasthan",
+                "DATA_FILE_LOCATION" : "data/raj.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.4,
+                                    "m2" : 2.17
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 2.64
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.11
+                                 }
+                 },
+    "Sikkim":{
+                "STATE" : "Sikkim",
+                "DATA_FILE_LOCATION" : "data/sk.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4,
+                                    "m2" : 3.7
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 3,
+                                    "m2" : 2.8
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 8.7   ,
+                                    "m2" : 1.140
+                                         }
+                 },
+    "Jammu & Kashmir": {
+                "STATE" : "Jammu & Kashmir",
+                "DATA_FILE_LOCATION" : "data/1_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4.5,
+                                    "m2" : 1.6
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 6.1,
+                                    "m2" : 1.08
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 5.1,
+                                    "m2" : 1.140
+                                 }
+                 },
+    "Arunanchal Pradesh": {
+                "STATE" : "Arunanchal Pradesh",
+                "DATA_FILE_LOCATION" : "data/12_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4,
+                                    "m2" : 2.33
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2,
+                                    "m2" : 2.7
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 5.2,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Nagaland": {
+                "STATE" : "Nagaland",
+                "DATA_FILE_LOCATION" : "data/13_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4,
+                                    "m2" : 2.7
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2,
+                                    "m2" : 2.8
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 6,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Mizoram": {
+                "STATE" : "Mizoram",
+                "DATA_FILE_LOCATION" : "data/15_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 5.55,
+                                    "m2" : 2.25
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2.3,
+                                    "m2" : 2.5
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Tripura": {
+                "STATE" : "Tripura",
+                "DATA_FILE_LOCATION" : "data/16_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 5.47,
+                                    "m2" : 2.25
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2.3,
+                                    "m2" : 2.6
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Jharkhand": {
+                "STATE" : "Jharkhand",
+                "DATA_FILE_LOCATION" : "data/20_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 3.4
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 3.11
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.5
+                                 }
+           },
+    "Daman & Diu": {
+                "STATE" : "Daman & Diu",
+                "DATA_FILE_LOCATION" : "data/25_data.csv",
+                 "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 2.23
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.1,
+                                    "m2" : 2.67
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Dadara & Nagar Havelli": {
+                "STATE" : "Dadara & Nagar Havelli",
+                "DATA_FILE_LOCATION" : "data/26_data.csv",
+                 "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 2.9
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.1,
+                                    "m2" : 3.9
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 5.5,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Punjab": {
+                "STATE" : "Punjab",
+                "DATA_FILE_LOCATION" : "data/3_data.csv",
+                 "GEOM_WIDTH_R" : {
+                                    "m1" : 4.4,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 5.7,
+                                    "m2" : 1.37
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Goa": {
+                "STATE" : "Goa",
+                "DATA_FILE_LOCATION" : "data/30_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 6.5,
+                                    "m2" : 2.23
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 2.1,
+                                    "m2" : 2.66
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 10.2,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Lakshadweep": {
+                "STATE" : "Lakshadweep",
+                "DATA_FILE_LOCATION" : "data/31_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 2.5,
+                                    "m2" : 2.34
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 0.9,
+                                    "m2" : 2.57
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4.5,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Puducherry": {
+                "STATE" : "Puducherry",
+                "DATA_FILE_LOCATION" : "data/34_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 3,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 1.38
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4.7,
+                                    "m2" : 1.140
+                                         }
+           },
+    "Andaman & Nicobar Island": {
+                "STATE" : "Andaman & Nicobar Island",
+                "DATA_FILE_LOCATION" : "data/35_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 1.5,
+                                    "m2" : 1.38
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 4.7,
+                                    "m2" : 1.140
+                                         }
+           },
+    "Chandigarh": {
+                "STATE" : "Chandigarh",
+                "DATA_FILE_LOCATION" : "data/4_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4.4,
+                                    "m2" : 2.27
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 5.7,
+                                    "m2" : 1.37
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+           },
+    "Uttarakhand": {
+                "STATE" : "Uttrakhand",
+                "DATA_FILE_LOCATION" : "data/5_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 4.5,
+                                    "m2" : 2.33
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 6.1,
+                                    "m2" : 1.25
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7,
+                                    "m2" : 1.140
+                                 }
+           },
+    "NCT of Delhi": {
+                "STATE" : "NCT of Delhi",
+                "DATA_FILE_LOCATION" : "data/7_data.csv",
+                "GEOM_WIDTH_R" : {
+                                    "m1" : 11.6,
+                                    "m2" : 2.6
+                                 },
+                "GEOM_HEIGHT_R" : {
+                                    "m1" : 14,
+                                    "m2" : 1.4
+                                  },
+                "GEOM_SCALE_R" : {
+                                    "m1" : 7.6,
+                                    "m2" : 3
+                                 }
+           }
+    
+}

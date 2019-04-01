@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/gif/png" href="photo.jpg">
+    <title>India Health Monitor</title>
+  <link rel="stylesheet" type="text/css" href="../../css/app.css">
+    <style>
+        li{
+         cursor: default;
+        }  
+        a:hover{
+            background: #fff;
+        }
+        .dropdown-toggle:hover{
+            text-decoration:underline;
+        }
+        .STATE_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+        .CATEGORY_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+        .INDEX_CATEGORY_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+    </style>
+    
+    <!-- Hotjar Tracking Code for https://mycol.io/webApp/assets/html/india.html -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:611675,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+</head>
+<body>
+        <div class="container-fluid main-wrapper" >
+        <div class="row" style="margin-top:2%;">
+        <div class="col-sm-12 map-section"> 
+            <div class="row" style="">
+                <ul class="nav navbar-nav s_nav_tab" style="background:#FFCF1A;width:100%;">
+                <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" style="color:#77777B;">Region<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown">India</a>
+                            <ul class="dropdown-menu">
+                                  <li><a id="India" class="STATE_DROPDOWN_SELECT">District Wise</a>
+                                  <li><a id="India_state" class="STATE_DROPDOWN_SELECT">State Wise</a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" >States</a>
+                            <ul class="dropdown-menu list-var" size="6">
+                                <li><a id="Andhra Pradesh" class="STATE_DROPDOWN_SELECT">Andhra Pradesh *</a></li>
+                                <li><a id="Arunanchal Pradesh" class="STATE_DROPDOWN_SELECT">Arunachal Pradesh</a></li>
+                                 <li><a id="Assam" class="STATE_DROPDOWN_SELECT">Assam</a></li>
+                                  <li><a id="Bihar" class="STATE_DROPDOWN_SELECT">Bihar</a></li>
+                                  <li><a id="Chhattisgarh" class="STATE_DROPDOWN_SELECT">Chhattisgarh</a></li>
+                                  <li><a id="NCT of Delhi" class="STATE_DROPDOWN_SELECT">Delhi</a></li>
+                                  <li><a id="Goa" class="STATE_DROPDOWN_SELECT">Goa</a></li>
+                                 <li><a id="Gujarat" class="STATE_DROPDOWN_SELECT">Gujarat</a></li>
+                                  <li><a id="Haryana" class="STATE_DROPDOWN_SELECT">Haryana</a></li>
+                                  <li><a id="Himachal Pradesh" class="STATE_DROPDOWN_SELECT">Himachal Pradesh</a></li>
+                                  <li><a id="Jammu & Kashmir" class="STATE_DROPDOWN_SELECT">Jammu and Kashmir</a></li>
+                                  <li><a id="Jharkhand" class="STATE_DROPDOWN_SELECT">Jharkhand</a></li>
+                                  <li><a id="Karnataka" class="STATE_DROPDOWN_SELECT">Karnataka</a></li>
+                                 <li><a id="Kerala" class="STATE_DROPDOWN_SELECT">Kerala</a></li>
+                                 <li><a id="Madhya Pradesh" class="STATE_DROPDOWN_SELECT">Madhya Pradesh</a></li>
+                                  <li><a id="Maharashtra" class="STATE_DROPDOWN_SELECT">Maharashtra</a></li>
+                                   <li><a id="Manipur" class="STATE_DROPDOWN_SELECT">Manipur</a></li>
+                                 <li><a id="Meghalaya" class="STATE_DROPDOWN_SELECT">Meghalaya</a></li>
+                                   <li><a id="Mizoram" class="STATE_DROPDOWN_SELECT">Mizoram</a></li>
+                                  <li><a id="Nagaland" class="STATE_DROPDOWN_SELECT">Nagaland</a></li>
+                                   <li><a id="Odisha" class="STATE_DROPDOWN_SELECT">Odisha</a></li>
+                                   <li><a id="Punjab" class="STATE_DROPDOWN_SELECT">Punjab</a></li>
+                                 <li><a id="Rajasthan" class="STATE_DROPDOWN_SELECT">Rajasthan</a></li>
+                                  <li><a id="Sikkim" class="STATE_DROPDOWN_SELECT">Sikkim</a></li>
+                                  <li><a id="Tamil Nadu" class="STATE_DROPDOWN_SELECT">Tamil Nadu</a></li>
+                                  <!--<li><a id="Telangana" class="STATE_DROPDOWN_SELECT">Telangana</a></li>-->
+                                  <li><a id="Tripura" class="STATE_DROPDOWN_SELECT">Tripura</a></li>
+                                 <li><a id="Uttar Pradesh" class="STATE_DROPDOWN_SELECT">Uttar Pradesh</a></li>
+                                  <li><a id="Uttarakhand" class="STATE_DROPDOWN_SELECT">Uttarakhand</a></li>
+                                 <li><a id="West Bengal" class="STATE_DROPDOWN_SELECT">West Bengal</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="H_C_D" data-toggle="dropdown" style="color:#77777B;">Public Health Infrastructure<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a id="SC_AVL" name="SC" class="CATEGORY_DROPDOWN_SELECT display_c" >Sub Centres</a></li>
+                                <li><a id="PHC_AVL" name="PHC" class="CATEGORY_DROPDOWN_SELECT display_c" >Primary Health Centres</a></li>
+                                <li><a id="CHC_AVL" name="CHC" class="CATEGORY_DROPDOWN_SELECT display_c" >Community Health Centres</a></li>
+                                <li><a id="SDH_AVL" name="SDH" class="CATEGORY_DROPDOWN_SELECT display_c" >Sub Divisional Hospital</a></li>
+                                <li><a id="DH_AVL" name="DH" class="CATEGORY_DROPDOWN_SELECT display_c" >District Hospital</a></li>
+                            </ul>
+                        </li>
+                
+                <!--<li><a id="purchase" class="dropdown-toggle" data-toggle="dropdown">Purchase Variables<b class=""></b></a></li>-->
+              
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="MATERNAL_H_F" data-toggle="dropdown" style="color:#77777B;">Maternal Health<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="p_safe_delivery" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Safe deliveries to total reported deliveries</a></li>
+                        <li><a id="p_inst_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Institutional deliveries to total reported deliveries</a></li>
+                         <li><a id="p_jsy_anc" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >JSY to total ANC registrations</a></li>
+                        <li><a id="p_1trimester_anc" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >First trimester registrations to total ANC registrations</a></li>
+                        <li><a id="p_3chkups_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Pregnant women received 3 ANC check-ups to total ANC registrations</a></li>
+                        <li><a id="p_100ifa_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Pregnant women given 100 IFA to total ANC registrations</a></li>
+                        <li><a id="p_tt2_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Pregnant women received TT2 or Booster to total ANC registrations</a></li>
+                        <li><a id="p_w48h_chkup_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Post-Partum check-up in &lt;48 hrs of delivery to total reported deliveries</a></li>
+                        <li><a id="p_b48h14d_chkup_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT display_c" >Post-Partum check-up within 2-14 days to total reported deliveries</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="INDEX" data-toggle="dropdown" style="color:#77777B;">Health Indices<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="INFRA_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT display_c" style="text-decoration:none;">Infrastructure Index</a></li>
+                        <li><a id="MET_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT display_c" style="text-decoration:none;">Maternal Health Index</a></li>
+                        <li><a id="CHILD_CARE_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT display_c" style="text-decoration:none;">Child Health Index</a></li>
+                        <li><a id="COMM_DIS_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT display_c" style="text-decoration:none;">Communicable Diseases Index</a></li>
+                        <li><a id="NON_COMM_DIS_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT display_c" style="text-decoration:none;">Non-Communicable Diseases Index</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+                <hr style="width:100%;">
+        </div><!--/.nav-collapse -->
+        </div>
+        </div>
+        </div>
+        
+    
+    
+        
+      <div class="row" style="margin-left:1%;">
+          <div class="row display_off" id="index_tabs">
+            <ul class="nav navbar-nav h_nav_tab" >
+                <li><a id="BIG_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;">Big States</a></li>
+                <li><a id="SMALL_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;" >Small States</a></li>
+                <li><a id="UT_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;">Union Territories</a></li>
+            </ul> 
+            <hr style="width:100%;">
+          </div>   
+          <div class="row display_off" id="non_index_tabs">
+                <ul class="nav navbar-nav s_nav_tab" >
+                    <li><a id="AVL" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Availability</a></li>
+                    <li><a id="ACCESSIBILITY" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Distance</a></li>
+                    <li><a id="HR" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Human Resources</a></li>
+                    <li><a id="INFRA" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Infrastructure</a></li>
+                    <li><a id="SUPPLY" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Supply</a></li>
+                </ul>   
+              <hr style="width:100%;">      
+           </div>
+         
+      </div>
+      
+            <div class="row">
+            <h2 class="title" id='main-head' style="margin-left:1%;font-size:25px;width:50%;text-align:center;">Generating Map...</h2>
+            </div>
+      <div class="row">
+        <div class="col-sm-6" id="chart-area">
+            <!--This is the chart plotting area -->
+        </div>
+        <div id="comming_soon" class="contd" >Work in progress... </div>
+        <div class="col-sm-6 map-detail-section display_off" style="margin-top:-3%;" id="table-area">
+            
+            <table class="table table-fixed table-striped">
+            <thead>
+                  <tr>
+                    <th class="col-xs-4">State / UT</th>
+                      <th class="col-xs-2" ><center>Quantity</center></th>
+                      <th class="col-xs-2"><center>Quality</center></th>
+                    <th class="col-xs-2">Infrastructure</th>
+                    <th class="col-xs-2">Ranking</th>
+                  </tr>
+            </thead>
+            <tbody id="index_data">
+
+            </tbody>
+          </table>
+          <div class="table_content">Health Infrastructure Index = Health Infrastructure Quantity Index x Health Infrastructure Quality Index</div>    
+         
+          </div>           
+        <div class="col-sm-6 map-detail-section display_off" style="padding-right:2%;" id="tooltip-area" >                
+            <div class="row">
+              <div class="col-xs-12" id="information-box-heading">
+                  <h3 class="heading-h3 col-xs-12 st_hd" id="STATE-HEAD"></h3> 
+              </div>
+            </div>
+            <div class="row display_off" id="sub-info-q" >
+              <div class="col-sm-12">
+                <h4 class="heading-h4" id="CATEGORY-HEAD"></h4>
+                <ul class="no-style center-detail-list">
+                  <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off quality_info" id="LABEL_1" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_1" ></div>
+                    </div>
+                  </li>
+                   <li class="row"> 
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_2" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_2" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_3" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_3" ></div>
+                    </div>
+                  </li>
+                 <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_4" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_4" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_5" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_5" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_6" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_6" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_7" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_7" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_8" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_8" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_9" class="quality_info"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_9" class="quality_info"></div>
+                    </div>
+                  </li>
+                    
+                  <li class="row">
+                    <div class="col-sm-2 quality_leg1">
+                        
+                    </div>
+                    <div class="col-sm-2">
+                        Surplus
+                    </div>
+                    <div class="col-sm-2 quality_leg2">
+                    </div>
+                      <div class="col-sm-2">
+                        Shortage
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row col-border display_c" id="sub-info" >
+              <div class="col-sm-5 display_c" id="sub-info-box">
+                <ul class="no-style population-detail-list">
+                  <li>
+                    <div class="list-value" id="URBAN-POPULATION"></div>
+                    <div class="list-label" id="URBP"></div>
+                  </li>
+                  <li>
+                    <div class="list-value" id="RURAL-POPULATION"></div>
+                    <div class="list-label" id="DENOMINATOR"></div>
+                  </li>
+                  <li>
+                    <div class="list-value" id="RURAL-TRIBAL-POPULATION"></div>
+                    <div class="list-label" id="NUMERATOR"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-7" id="sub-info-2">
+                <h4 class="heading-h4" id="CATEGORY-HEAD"></h4>
+                <ul class="no-style center-detail-list">
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" style="margin-left:-5%;" id="EXISTING-LABLE"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="EXISTING"></div>
+                    </div>
+                  </li>
+                  <li class="row" id="CAVEAT_ROW" style="display:none;">
+                    <div class="col-sm-12">
+                      <div class="list-label cvt_cnt" id="CAVEAT"></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" style="margin-left:-5%;" id="REQUIRED-LABLE"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="REQUIRED"></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" id="CHC-LABEL"></div>
+                      <div class="list-label" style="margin-left:-5%;" id="SHORTAGE-LABEL"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="SHORTAGE"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--<div class="row">
+          <div class="col-sm-12 legend-head" id="legHead"></div>
+      </div>-->
+       
+      <div class="row display_off" id="legends" >
+        <div class="col-sm-10" id="leg_id">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              
+              
+              <div  class="floating-label leg_style" id="l1" >Large Surplus</div>
+                <div class="floating-box l1" ></div>
+                <div  class="floating-label leg_style" id="d1" > > 25% </div>
+            </div>
+            <div class="col-sm-3 text-center">
+               
+             
+              <div  class="floating-label leg_style" id="l2" >Surplus</div>
+                 <div class="floating-box l2" style="background:#2B8CBE;"></div>
+                 <div  class="floating-label leg_style" id="d2" > 0 - 25% </div>
+            </div>
+            <div class="col-sm-3 text-center">
+                
+             
+              <div  class="floating-label leg_style" id="l3" >Shortage</div>
+                 <div class="floating-box l3" style="background:#FFC107;"></div>
+                <div  class="floating-label leg_style" id="d3" > 0 - 25% </div>
+            </div>
+            <div class="col-sm-3 text-center">
+               
+             
+              <div  class="floating-label leg_style" id="l4" >Extreme Shortage</div>
+                 <div class="floating-box l4" style="background:#E65100;"></div>
+                 <div  class="floating-label leg_style" id="d4" > 25% </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-sm-6" id="INFO-CAVEAT" style="font-size:10px;"></div>
+   <div class="search-container form-group" style="margin-top:1%;" id="google_translate_element"></div><script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script type="text/javascript" src=../../js/app.js></script>
+    <script type="text/javascript" src=../../js/app_dynamic.js></script>
+    <script type="text/javascript">
+        function revert(id,color){
+            console.log("JAVASCRIPT")
+            ele = document.getElementById(id)
+            ele.style.background = color;
+        }
+        
+        function highlight(id){
+            console.log("JAVASCRIPT")
+            ele = document.getElementById(id)
+            var c = ele.style.background;
+            ele.style.background = "#cbcbcb"
+            return c;
+        }
+    </script>
+</body>
+</html>
